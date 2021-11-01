@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.Layout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  border: 1px solid #bcc2ce ;
+  border-radius: 30px;
+  box-shadow: 24px 8px 105px -12px rgba(0,0,0,0.75);
+ -webkit-box-shadow: 24px 8px 105px -12px rgba(0,0,0,0.75);
+}
+.halfWidth{
+  width: 50%;
+}
+.halfHeight{
+  height: 50%;
+}

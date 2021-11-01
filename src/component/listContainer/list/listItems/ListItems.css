@@ -1,0 +1,28 @@
+.ListItems{
+    overflow: hidden;
+    height: 2rem;
+    box-shadow: 10px 10px 52px 0px rgba(107, 96, 96, 0.75);
+    -webkit-box-shadow: 10px 10px 52px 0px rgba(107, 96, 96, 0.75);
+    -moz-box-shadow: 10px 10px 52px 0px rgba(107, 96, 96, 0.75);
+    background-color: #bdd4e7;
+background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+
+    
+    border-radius: 10px;
+    cursor: pointer;
+    padding:.2rem;
+    margin-bottom: .8rem;
+    text-align: center;
+    transition: all .2s ease-in-out;
+}
+
+.ListItems:hover{
+    background-color: #abe9cd;
+    background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+    
+}
+
+.active{
+    border:2px solid wheat;
+    color: black;
+}
